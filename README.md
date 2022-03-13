@@ -10,7 +10,7 @@ The official Website of Berrycious 2022
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/INEXD)
 
 Ahmed Baari is an Indian Student of Class 12 currently learning Python, Javascript and Discord Development.
-- **Instagram:** [@berrybaarz](https://instagram.com/berrybaarz)
+- **Instagram:** [@berrybaarz](https://instagram.com/berrycious)
 - **YouTube:** [INEX](https://youtube.com/INEXD)
 - **Discord:** [Berry's World](https://discord.gg/DVwuuaDFaK)
 - **Twitter:** [BerryBaarz](https://twitter.com/BerryBaarz)

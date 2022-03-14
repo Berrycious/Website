@@ -5,7 +5,7 @@ import './App.css'
 //var fs = require('fs'); //File System for Node JS will help us till Databases arri
 
 
-const fetch = require('node-fetch')
+/*const fetch = require('node-fetch')
 
 
 let options = {
@@ -13,7 +13,7 @@ let options = {
   };
 
   
- /* function fetchData(){
+  function fetchData(){
       const data = fetch(`https://via.inex.ga/api/songs/top`, options)
     .then(function(response) { return response.json(); })
     .then(function(jsondata) {

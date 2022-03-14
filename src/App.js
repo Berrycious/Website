@@ -1,7 +1,7 @@
 //import logo from './logo.svg';
 import './App.css';
 import JsonDataDisplay from './table';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 let options = {
   method: 'GET'
 };
@@ -14,6 +14,7 @@ function App() {
     .then(function(jsondata) {
             console.log(jsondata);
         });
+        console.log(data);
     }
     catch (e) {
       console.log(e)

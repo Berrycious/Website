@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import JsonDataDisplay from './table';
 import { useEffect, useState } from 'react';

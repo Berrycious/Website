@@ -1,6 +1,6 @@
 # The Berrycious Website
 The official Website of Berrycious 2022
-![Berrycious Logo](/Berrycious_Transparent.png?size=100)
+![Berrycious Logo](/assets/Berrycious_Transparent.png?size=100)
 ## About The Author
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=ahmed4baari@email.com&su=Reg%20Python%20Development&body=Hey%20Berry)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/BerryBaarz)

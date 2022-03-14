@@ -15,6 +15,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <div><image src="../assets/Berrycious_Transparent.png"></image></div>
         <h1>Privacy Policy Of Via</h1> <br></br>
         <p className='App-text'>Here's the privacy policy and terms that you agree to when adding the <b>Via Bot</b> to your server, or by being a member of a server that has the bot. This doesn't replace the <a className='App-link' href='https://discordapp.com/developers/docs/legal'><b>Developer Terms of Service</b></a> or <a className='App-link' href='https://discordapp.com/terms'><b> Terms of Service</b></a>.</p>
         <h2>Bots, Services, and Servers</h2>

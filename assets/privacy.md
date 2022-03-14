@@ -35,7 +35,7 @@ The following data may be collected and stored when a user runs an economy comma
 * User ID (for saving the user's balance)
 * User Presence Status: online, dnd, idle, offline
 
-## Data Collected By Activity
+## Activity Data
 The collects data from the user's presence activity **only** when they meet all the following criteria:
 * Listening to Spotify
 * Spotify account connected to Discord
@@ -44,7 +44,7 @@ The collects data from the user's presence activity **only** when they meet all 
 * Presence status is online, dnd or idle
 * Member of server to which the bot has been added
 
-### The activity data collected is as follows:
+### Activity Data that the bot collects:
 * The song the user is listening to
 * The time the user started listening to the song
 * The number of songs the user has listened to

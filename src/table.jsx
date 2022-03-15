@@ -37,10 +37,9 @@ let options = {
         (info)=>{
             return(
                 <tr>
-                    <td>{info.name}</td>
+                    <td><a className="App-link" href={info.link} target="_blank">{info.name}</a></td>
                     <td>{info.artist}</td>
                     <td>{info.album}</td>
-                    <td>{info.link}</td>
                     <td>{info.streak}</td>
                 </tr>
             )
@@ -48,14 +47,13 @@ let options = {
     )
 
     return(
-        <div>
-            <table class="table table-striped">
+        <div className="main">
+            <table class="styled-table" id="demo1">
                 <thead>
                     <tr>
                     <th>Song</th>
                     <th>Artist</th>
                     <th>Album</th>
-                    <th>Link</th>
                     <th>Streak</th>
                     </tr>
                 </thead>

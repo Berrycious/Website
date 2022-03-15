@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start && node fetcher.js",
-    "build": "react-scripts build",
+    "build": "react-scripts build && node fetcher.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

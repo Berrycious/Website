@@ -1,4 +1,5 @@
 .App {
+  margin-top: 5rem;
   text-align: center;
 }
 
@@ -14,8 +15,23 @@
 }
 
 body {
-background: #141414;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+  height: 1110vh;
 
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 
@@ -59,7 +75,9 @@ background: #141414;
   border-collapse: collapse;
   margin: 25px 0;
   font-size: 0.9em;
-  padding-top: 390px;
+  border-radius: 30px;
+  height:600px;
+  display:block;
   font-family: sans-serif;
   min-width: 400px;
   border-radius: 3rem;
@@ -74,12 +92,10 @@ background: #141414;
 
 .styled-table th,
 .styled-table td {
-    padding: 12px 15px;
+    padding: 12px 10px;
 }
 
-.styled-table tbody tr {
-  border-bottom: 1px solid #282c34;
-}
+
 
 .styled-table tbody tr:nth-of-type(even) {
   background-color: #282c34;
@@ -100,3 +116,20 @@ background: #141414;
 }
 
 
+@media only screen and (max-width: 400px) {
+  .App{
+    margin-top: 3rem;
+  }
+  .styled-table{
+    border-radius: 20px;
+  }
+
+  .styled-table th,
+.styled-table td {
+    padding: 16px 16px;
+}
+
+body{
+  background: #141414;
+}
+}

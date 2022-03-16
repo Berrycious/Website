@@ -37,7 +37,7 @@ let options = {
         (info)=>{
             return(
                 <tr>
-                    <td><a className="App-link" href={info.link} target="_blank">{info.name}</a></td>
+                    <td><a rel="noreferrer" className="App-link" href={info.link} target="_blank">{info.name}</a></td>
                     <td>{info.artist}</td>
                     <td>{info.album}</td>
                     <td>{info.streak}</td>
